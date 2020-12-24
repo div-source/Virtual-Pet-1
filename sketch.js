@@ -34,8 +34,13 @@ function draw() {
   drawSprites();
   strokeWeight()
   stroke("red");
+textSize(15)
+fill("black")
+  text("Food Remaining:" + foodS, 180,480);
 
-  text("Food Remaining:" + foodS, 250,480);
+textSize(25)
+fill("Yellow")
+text("Press UP Arrow To Feed Dog",100,50);
 }
 
 function readStock(data){
